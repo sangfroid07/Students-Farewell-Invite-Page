@@ -18,15 +18,17 @@ document.addEventListener('DOMContentLoaded', function() {
         if (studentName) {
             const poem = `
                 === ✭ ===  ✭ === ✭ ===<br><br>
-                Roses are red,  |  Cherish the moments,<br>
-                Violets are blue,  |  The laughter, the tears,<br>
-                As you bid farewell,  |  As you step forward,<br>
-                Remember, we cherish you.  |  To new frontiers.<br>
+                Roses are red, Violets are blue;<br>
+                As you bid farewell,Remember, we cherish you.<br>
+                Cherish the moments, The laughter, the tears;<br>
+                As you step forward,To new frontiers.<br><br>
+                Through the halls you’ve walked, With friends by your side;<br>
+                May your journey ahead, Be a glorious ride.<br>
+                Goodbye is not forever, It's just a simple pause;<br>
+                For every ending is, A new beginning's cause...<br><br>
+                𝑭𝒂𝒓𝒆𝒘𝒆𝒍𝒍, ${studentName}!<br>
                 <br>
-                Through the halls you’ve walked,  |  Goodbye is not forever,<br>
-                With friends by your side,  |  It's just a simple pause,<br>
-                May your journey ahead,  |  For every ending is,<br>
-                Be a glorious ride.  |  A new beginning's cause.<br><br>
+                === ✭ ===  ✭ === ✭ ===`;
                 𝑭𝒂𝒓𝒆𝒘𝒆𝒍𝒍, ${studentName}!<br>
                 <br>
                 === ✭ ===  ✭ === ✭ ===`;
