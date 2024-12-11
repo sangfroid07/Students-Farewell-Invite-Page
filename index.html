@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farewell Message</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+    <header id="header">✭ Welcome, Student! ✭</header>
+    
+    <div class="container" id="inputContainer">
+        <h1>✭ Farewell ....</h1>
+        <form id="rollNumberForm">
+            <label for="details">Enter details:</label>
+            <div id="details">
+                <select id="section" name="section" required>
+                    <option value="">Select Section</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                </select>
+                <select id="rollNumber" name="rollNumber" required>
+                    <option value="">Select Roll Number</option>
+                </select>
+            </div>
+            <button type="submit">Proceed!</button>
+        </form>
+    </div>
+    <div class="container hidden" id="messageContainer">
+        <div id="farewellMessage">
+            <p id="message"></p>
+            <div class="video-container">
+                <iframe id="farewellVideo" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="bubble.css">
+</body>
+</html>
